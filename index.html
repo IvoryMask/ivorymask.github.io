@@ -46,6 +46,7 @@
 		margin-left: auto;
 		margin-right: auto;
 		margin-top: 20px;
+		margin-bottom: 20px;
 	}
 	.content{
 		padding: 5%;
@@ -72,6 +73,30 @@
 		font-weight:bold;
   		text-shadow: 1px 1px #b6b6b6;
 	}
+	.logo-name {
+		padding: 5px;
+		font-size: 30px;
+		font-weight:bold;
+		text-transform:uppercase;
+		font-family:Copperplate Gothic Light;
+		line-height:1.7;
+		text-align:center;
+		color: #000;
+	}
+	.logo-img img{
+		width:10%;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		margin-top: 40px;
+	}
+	.line img{
+		height: 50px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 20px;
+	}
 	footer{
 		background: #000;
 		color: #fff;
@@ -79,10 +104,21 @@
 		text-align:center;
 		bottom: 0;
 	}
+	.name {
+		padding: 5px;
+		font-size: 30px;
+		font-weight:bold;
+		text-transform:uppercase;
+		font-family:Copperplate Gothic Light;
+		line-height:1.7;
+		float:left;
+		color: #fff;
+	}
     </style>
 </head>
 <body>
 	<header>
+		<div class = "name">MAYACAT</div>
 		<nav>
 			<ul>
 				<li><a href = "https://ivorymask.github.io/">Home</a></li>
@@ -92,8 +128,14 @@
 		</nav>
 	</header>
 
-	<div class = "logo">
-		<img src = "header.jpg" alt = "">
+	<div class = "logo-img">
+		<img src = "logo.png" alt = "">
+	</div>
+
+	<div class = "logo-name">MAYACAT</div>
+
+	<div class = "line">
+		<img src = "line.jpg" alt = "">
 	</div>
 
 	<div class = "content">
@@ -103,6 +145,10 @@
 		<p><a>Final Report</a></p>
 	</div>
 
+	<div class = "logo">
+		<img src = "header.jpg" alt = "">
+	</div>
+	
 	<footer>
 		<p>By Group 3</p>
 	</footer>
